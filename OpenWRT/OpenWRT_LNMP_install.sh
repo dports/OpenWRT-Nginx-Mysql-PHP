@@ -3,7 +3,7 @@
 
 opkg update
 echo -e "\033[31m Software Update is Done\033[0m"
-opkg install php5 php5-mod-mysql php5-fastcgi php5-cgi \
+opkg install php7 php7-mod-mysql php7-fastcgi php7-cgi \
 mysql-server nginx spawn-fcgi zoneinfo-core zoneinfo-asia shadow-groupadd shadow-useradd
 echo -e "\033[31m Software install is Done\033[0m"
 mkdir /web
